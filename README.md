@@ -1,7 +1,7 @@
     NL:
 
     HOE SPEEL JE DE SPEL?
-    Je moet nummers 1,2,3 en soms ook 4 invoeren om verder te kunnen gaan en datw as het eigenlijk. Best simpel
+    Je moet nummers 1,2,3 en soms ook 4 invoeren om verder te kunnen gaan en dat was het eigenlijk. Best simpel
 
     ENG:
 

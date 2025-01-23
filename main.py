@@ -86,7 +86,7 @@ while True:
 
     #einde(YamYam)
     if keuze3 == "1":
-        typewrite("Je hebt de linker ventilatierooster geopend en je valt weer in een cel,\nmaar je bent niet alleen...\nnee, je bent in het cel terecht gekomen van 'El yamyam'\nJe bent dus uiteindelijk nog steeds niet ontsnapt en hij heeft je opgevreten.\n\n(Yamyam end)\n\n")
+        typewrite("Je hebt de linker ventilatierooster geopend en je valt weer in een cel,\nmaar je bent niet alleen...\nnee, je bent in het cel terecht gekomen van 'El yamyam'\nJe bent dus uiteindelijk nog steeds niet ontsnapt en hij heeft je opgevreten.\n\n(Yamyam einde)\n\n")
         exit()
     
     #keuze die je leidt naar keuze4(spel keuze 3)
@@ -108,7 +108,7 @@ while True:
 
     #einde(Happy)
     if keuze4 == "1":
-        typewrite("Hij vond je aardig en nam je mee naar een bar en jullie waren beste vrienden en niemand was gewond.\n\n(Happy ending)\n\n")
+        typewrite("Hij vond je aardig en nam je mee naar een bar en jullie waren beste vrienden en niemand was gewond.\n\n(Happy einde)\n\n")
         exit()
     
     #keuze die leidt naar keuze5(spel keuze 4)
@@ -152,7 +152,7 @@ if keuze4 == "2":
 
 #einde(Dikke pech)
 if keuze5 == "1":
-    typewrite("Je rent en rent en rent en uiteindelijk de\nuitgang gevonden. Je doet de deur open helemaal blij\nen denkt wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. JE geeft je over en je gaat de bak weer in.\n\n(Dikke pech ending)\n\n")
+    typewrite("Je rent en rent en rent en uiteindelijk de\nuitgang gevonden. Je doet de deur open helemaal blij\nen denkt wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. JE geeft je over en je gaat de bak weer in.\n\n(Dikke pech einde)\n\n")
     exit()
 
 #einde(Lijpe einde)
@@ -194,12 +194,12 @@ if keuze4 == "3":
 
 #einde(IDKsterling)
 if keuze6 == "1":
-    typewrite("Je ziet dat Sterling al een gat heeft gegraven\ndie leidt naar de riool en je volgt hem dus.\nJe ontsnapt uiteindelijk uit de gevangenis.\n\n(Onstnapt met IDKsterling ending)\n\n")
+    typewrite("Je ziet dat Sterling al een gat heeft gegraven\ndie leidt naar de riool en je volgt hem dus.\nJe ontsnapt uiteindelijk uit de gevangenis.\n\n(Onstnapt met IDKsterling einde)\n\n")
     exit()
 
 #einde(toilet)    
 if keuze6 == "3":
     typewrite("Je hebt maar weinig tijd" + naam +". De bewaker probeert die deur open te trappen. klim nu uit het raam")
     input("Press ENTER to 'klim uit het raam'")
-    typewrite("Je bent door de raam geklommen en je rent weg en je bent ontsnapt.\n\n(Toiletraam ontsnapping)\n\n")
+    typewrite("Je bent door de raam geklommen en je rent weg en je bent ontsnapt.\n\n(Toiletraam ontsnapping einde)\n\n")
     exit()
