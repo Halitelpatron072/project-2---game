@@ -48,7 +48,7 @@ while True:
         typewrite("Voordat je begint, wil je fent?\n\nja\n\nnee")
         keuze = input("> ")
 
-        # Random keuze (keuze 1)
+        # menu einde 1
         if keuze == "nee":
             typewrite("Isg\n\n")
             eind()
@@ -169,7 +169,7 @@ if keuze4 == "2":
 
 # Einde 4
 if keuze5 == "1":
-    typewrite("Je rent en rent en rent en vindt uiteindelijk de\nuitgang. Je opent de deur, helemaal blij\nen denkt na over wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. Je geeft je over en gaat de bak weer in.\n\n(Dikke pech einde)\n\n")
+    typewrite("Je rent en rent en rent en vindt uiteindelijk de\nuitgang. Je opent de deur, helemaal blij\nen denkt na over wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. Je geeft je over en gaat de bak weer in.\n\n(Einde 4)\n\n")
     eind()
 
 # Einde 5
