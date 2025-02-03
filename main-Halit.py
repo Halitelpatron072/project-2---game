@@ -167,18 +167,18 @@ if keuze4 == "2":
             typewrite("Ongeldige keuze\n")
             continue
 
-# Einde 4
-if keuze5 == "1":
-    typewrite("Je rent en rent en rent en vindt uiteindelijk de\nuitgang. Je opent de deur, helemaal blij\nen denkt na over wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. Je geeft je over en gaat de bak weer in.\n\n(Einde 4)\n\n")
-    eind()
+    # Einde 4
+    if keuze5 == "1":
+        typewrite("Je rent en rent en rent en vindt uiteindelijk de\nuitgang. Je opent de deur, helemaal blij\nen denkt na over wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. Je geeft je over en gaat de bak weer in.\n\n(Einde 4)\n\n")
+        eind()
 
-# Einde 5
-if keuze5 == "2":
-    typewrite("Je kiest om niet te schieten en je vindt een uitgang. Je loopt weg en gaat lekker naar huis als een soldaat.\n\n(Lijpe einde)\n\n")
-    eind()
+    # Einde 5
+    elif keuze5 == "2":
+        typewrite("Je kiest om niet te schieten en je vindt een uitgang. Je loopt weg en gaat lekker naar huis als een soldaat.\n\n(Lijpe einde)\n\n")
+        eind()
 
 # Keuze6 (spel keuze 5)
-if keuze4 == "3":
+elif keuze4 == "3":
     while True:
         typewrite("Je rent snel weg en je hoort de bewaker achter je roepen.\nWat ga je nu doen, " + naam + "?\n")
         typewrite("1. Je verstoppen in een kamer\n\n2. Naar de uitgang rennen\n\n3. Je verstoppen in een toilet\n\n4. Een lijpe ritueel uitvoeren")
@@ -213,15 +213,15 @@ if keuze4 == "3":
             typewrite("> Ongeldige keuze\n")
             continue
 
-# Einde 9
-if keuze6 == "1":
-    typewrite("Je ziet dat Sterling al een gat heeft gegraven\ndat naar het riool leidt en je volgt hem.\nJe ontsnapt uiteindelijk uit de gevangenis.\n\n(Onstnapt met IDKsterling einde)\n\n")
-    eind()
+    # Einde 9
+    if keuze6 == "1":
+        typewrite("Je ziet dat Sterling al een gat heeft gegraven\ndat naar het riool leidt en je volgt hem.\nJe ontsnapt uiteindelijk uit de gevangenis.\n\n(Onstnapt met IDKsterling einde)\n\n")
+        eind()
 
-# Einde 7
-if keuze6 == "3":
-    typewrite("Je hebt maar weinig tijd, " + naam + ". De bewaker probeert de deur open te trappen. Klim nu uit het raam.")
-    addcoin(1)
-    input("Druk op ENTER om 'uit het raam te klimmen'")
-    typewrite("Je bent door het raam geklommen en je rent weg. Je bent ontsnapt.\n\n(Toiletraam ontsnapping einde)\n\n")
-    eind()
+    # Einde 7
+    elif keuze6 == "3":
+        typewrite("Je hebt maar weinig tijd, " + naam + ". De bewaker probeert de deur open te trappen. Klim nu uit het raam.")
+        addcoin(1)
+        input("Druk op ENTER om 'uit het raam te klimmen'")
+        typewrite("Je bent door het raam geklommen en je rent weg. Je bent ontsnapt.\n\n(Toiletraam ontsnapping einde)\n\n")
+        eind()
