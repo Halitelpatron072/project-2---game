@@ -122,7 +122,7 @@ while True:
 
     # Einde 3
     if keuze4 == "1":
-        typewrite("Hij vond je aardig en nam je mee naar een bar. Jullie werden beste vrienden en niemand was gewond.\n\n(Gelukkig einde)\n\n")
+        typewrite("Hij vond je aardig en nam je mee naar een bar. Jullie werden beste vrienden en niemand raakte gewond.\n\n(Einde 3)\n\n")
         eind()
 
     # Keuze die leidt naar keuze5 (spel keuze 4)
