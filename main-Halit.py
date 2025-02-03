@@ -155,6 +155,7 @@ if keuze4 == "2":
         if keuze5 == "1":
             typewrite("Je gebruikt het wapen en doodt de bewaker die al bewusteloos lag, maar het alarm gaat af. Ga daar zo snel mogelijk weg!\n\n")
             addcoin(1)
+            einde4 = input("> Press 1 to continue")
             break
 
         elif keuze5 == "2":
@@ -168,7 +169,7 @@ if keuze4 == "2":
             continue
 
 # Einde 4
-if keuze5 == "1":
+if einde4 == "1":
     typewrite("Je rent en rent en rent en vindt uiteindelijk de\nuitgang. Je opent de deur, helemaal blij\nen denkt na over wat je allemaal gaat doen als je vrij bent, maar je hebt te vroeg gejuicht,\nwant de politie is er al. Je geeft je over en gaat de bak weer in.\n\n(Einde 4)\n\n")
     eind()
 
